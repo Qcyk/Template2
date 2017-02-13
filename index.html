@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>A2Z Render Services Ltd</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+        
+        <link href='http://fonts.googleapis.com/css?family=Alex+Brush&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+      	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+
+        <style>
+            .strzalka{
+                color: #ffa400;
+                 animation-name:szerokosc;
+                 animation-duration:1s;
+                 animation-iteration-count:infinite;
+                
+                 -webkit-animation-name:szerokosc;
+                 -webkit-animation-duration:1s;
+                 -webkit-animation-iteration-count:infinite;
+            }
+            @keyframes szerokosc{
+                
+                100% {transform: scale(1.3);}
+            }
+            .navbar-default .navbar-nav>li>a:hover{
+                color: lightblue;
+            }
+            .navbar>.container .navbar-brand:hover{
+                color: lightblue;
+            }
+            .przesuniecie{
+                margin-top: 200px;
+                
+            }
+            .logo{
+             
+               margin-top: 13%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+           </style>
+        
+
+        
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+
+<!-- Home section
+================================================== -->
+<section id="home" class="parallax-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12" >
+               <img src="css/logo1.png" class="wow fadeInDown logo img-responsive">
+            </div>
+        </div>
+       
+        <div class="row">
+            <div class="przesuniecie col-lg-12 col-md-12 col-sm-12">
+                <a href="#about"class="btn text-center wow fadeInUp smoothScroll" data-wow-delay="0.4s">
+                    <h1> <span class=" strzalka glyphicon glyphicon-menu-down"></span></h1>
+                </a>
+            </div>
+        </div>
+    </div>	    
+        
+</section>
+
+
+<!-- Navigation section
+================================================== -->
+<section class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">
+			<img src="css/logoM.png">
+			</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">HOME</a></li>
+				<li><a href="#about" class="smoothScroll">ABOUT</a></li>    
+				<li><a href="#blog" class="smoothScroll">GALLERY</a></li>
+				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+			</ul>
+		</div>
+
+	</div>
+</section>
+
+
+<!-- about section
+================================================== -->
+<section id="about">
+	<div class="container">
+		<div class="row wow bounceInLeft" data-wow-delay="1.5s" >
+        
+			<div class="col-md-6 col-sm-12">
+				<img src="zdjecia/1.jpg" class="img-responsive " alt="about img 1">
+			</div>
+            
+			<div class="col-md-6 col-sm-12">
+				<div class="about-des">
+					<h4>The most active lifestyle</h4>
+					<h3>Living in MODERN TOWN</h3>
+					<p>This is new HTML5 template that is easy to modify and apply for any kind of your website. This layout is based on Bootstrap v3.3.5 responsive framework. Visit <a rel="nofollow" href="http://www.tooplate.com" target="_parent">Tooplate</a> for more website themes or templates. Credits go to <a rel="nofollow" href="http://unsplash.com" target="_parent">Unsplash</a> and <a rel="nofollow" href="http://pixabay.com" target="_parent">Pixabay</a> for images. Lorem ipsum dolor sit amet, maecenas eget vestibulum.</p>
+				</div>
+			</div>
+
+		</div>
+        
+        <div class="row wow bounceInRight" data-wow-delay="1.1s">
+			
+			<div class="col-md-6 col-sm-12">
+				<div class="about-des">
+					<h4>New Community Mall</h4>
+					<h3>Going to the NEXT Level</h3>
+					<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa.</p>
+				</div>
+			</div>
+            
+            <div class="col-md-6 col-sm-12">
+				<img src="zdjecia/2.jpg" class="img-responsive" alt="about img 2">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<section id="testimonial" style="background-color: lemonchiffon">
+	<div class="container">
+		<div class="row">
+
+			<!-- Service Owl Carousel section
+			================================================== -->
+                        <div id="owl-testimonial" class="wow bounceIn" data-wow-delay="0.8s">
+
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-offset-2 col-md-8">
+                                        <img src="images/artur.jpg" class="img-responsive img-circle" alt="testimonial img">
+                                        <h2>ARTUR ZALEWSKI</h2>
+                                        <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+		</div>
+	</div>
+</section>
+
+
+
+<!-- gallery section
+================================================== -->
+<section id="blog">
+    <div class=" container">
+        <h2>Gallery</h2>
+
+
+
+        <div class="row">
+            <div class="post1 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Bracknell/1.jpg" data-fancybox-group="gallery">
+                    <div class="moj">
+                        <img src="Bracknell/1.jpg" class="img-thumbnail img-responsive"   height="250" width="300" alt="..."> 
+                    </div>
+                </a>
+            </div>
+            <div class="post2 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Bracknell/2.jpg" data-fancybox-group="gallery">
+                    <div class="moj">
+                    <img src="Bracknell/2.jpg" class="img-thumbnail img-responsive"   height="250" width="300" alt="...">
+                    </div>
+                </a>
+            </div>
+            <div class="post3 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Bracknell/3.jpg" data-fancybox-group="gallery">
+                    <div class="moj">
+                    <img src="Bracknell/3.jpg" class="img-thumbnail img-responsive"  height="250" width="300" alt="...">
+                    </div>
+                </a>
+            </div>
+            <div class="post4 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Bracknell/4.jpg" data-fancybox-group="gallery">
+                      <div class="moj">
+                    <img src="Bracknell/4.jpg" class="img-thumbnail img-responsive"  height="250" width="300" alt="...">
+                      </div>
+                </a>
+            </div>
+        </div>
+            <div class="row">
+                <br>
+            <div class="post5 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Brighton/1.jpg" data-fancybox-group="gallery">
+                      <div class="moj">
+                     <img src="Brighton/1.jpg" class="img-thumbnail img-responsive" height="250" width="300" alt="...">
+                      </div>
+                </a>
+            </div>
+            <div class="post6 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Brighton/2.jpg" data-fancybox-group="gallery">
+                      <div class="moj">
+                     <img src="Brighton/2.jpg" class="img-thumbnail img-responsive" height="250" width="300" alt="...">
+                      </div>
+                </a>
+            </div>
+            <div class="post7 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Brighton/3.jpg" data-fancybox-group="gallery">
+                      <div class="moj">
+                    <img src="Brighton/3.jpg" class="img-thumbnail img-responsive" height="250" width="300" alt="...">
+                      </div>
+                </a>
+            </div>
+            <div class="post8 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Brighton/4.jpg" data-fancybox-group="gallery">
+                      <div class="moj">
+                    <img src="Brighton/4.jpg" class="img-thumbnail img-responsive" height="250" width="300" alt="...">
+                      </div>
+                </a>
+            </div>
+        </div>
+             <div class="row">
+                 <br>
+            <div class="post9 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Great Yarmounth/1.jpg" data-fancybox-group="gallery">
+                    <div class="moj ">
+                     <img src="Great Yarmounth/1.jpg" class="img-thumbnail img-responsive" height="250" width="300" alt="...">
+                    </div>
+                </a>
+            </div>
+            <div class="post10 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Great Yarmounth/2.jpg" data-fancybox-group="gallery">
+                      <div class="moj">
+                     <img src="Great Yarmounth/2.jpg" class="img-thumbnail img-responsive" height="250" width="300" alt="...">
+                      </div>
+                </a>
+            </div>
+            <div class="post11 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Great Yarmounth/3.jpg" data-fancybox-group="gallery">
+                      <div class="moj">
+                    <img src="Great Yarmounth/3.jpg" class="img-thumbnail img-responsive" height="250" width="300" alt="...">
+                      </div>
+                </a>
+            </div>
+            <div class="post12 col-xs-6 col-md-3 col-lg-3">
+                <a class="fancybox" rel="group" href="Great Yarmounth/4.jpg" data-fancybox-group="gallery">
+                      <div class="moj">
+                    <img src="Great Yarmounth/4.jpg" class="img-thumbnail img-responsive"  height="250" width="300" alt="...">
+                      </div>
+                </a>
+            </div>
+          </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+</div>
+</section>
+
+
+<!-- Contact section
+================================================== -->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+
+			
+			<div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay="1.2s">
+				<form method="post" action="php/kontakt.php" >
+					<div class="col-md-12 col-sm-12">
+						<input name="name" type="text" class="form-control" placeholder="Name"  id="name">
+						<input name="email" type="email" class="form-control" placeholder="Email"  id="email">
+                                                <input name="subject" type="text" class="form-control" placeholder="Subject" >
+                                                <textarea name="message" rows="8" class="form-control" id="message" placeholder="Message" message="message"></textarea>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<input name="submit" type="submit" class="form-control" id="submit" value="Send a message">
+					</div>
+				</form>
+			</div>
+
+			
+                    <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
+                        <div class="contact-detail">
+                            <h2>CONTACT US</h2>
+                            <div>
+                                <h4>A2Z Render Services Ltd</h4>
+                                <p>62 Alma street, Stratford, London, E15 1QA</p>
+                            </div>
+                            <div>
+                                <h4>Talk to Us</h4>
+                                <p>Email: a2zrenderservicesltd@gmail.com</p>
+                                <p>Tel: 07883005668 &nbsp;&nbsp;&nbsp; Artur Zalewski </p>
+                            </div>
+                        </div>
+                    </div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- footer section
+================================================== -->
+
+
+
+<script src="js/wow.min.js"></script>
+<script>
+          new WOW().init();
+</script>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="js/timer.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/parallax.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="source/jquery.fancybox.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+           $(".fancybox").fancybox();
+   $(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+       padding : 0
+      });
+    });
+</script>
+      
+
+</body>
+</html>
